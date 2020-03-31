@@ -4,7 +4,7 @@ def binarySearch(array, l, r, x):
   # check base case
   if r >= l:
 
-    middle: l + (r - l) // 2 #Get the middle index
+    middle = l + (r - l)//2 #Get the middle index
 
     # If element is present at the middle returns itself
     if array[middle] == x:
@@ -16,7 +16,7 @@ def binarySearch(array, l, r, x):
 
     # Else the element can only be present in right subarray
     else:
-      return binarySearch(array, middle+1, l, x)
+      return binarySearch(array, middle+1, r, x)
 
   else:
     # Element is not present in the array
