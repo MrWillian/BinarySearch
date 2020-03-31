@@ -11,6 +11,10 @@ To use this repository, simply clone it, after that, just enter your folder thro
 
   > python app.py
 
+The array is predefined in the app.py file and shown to you when you run it, at the same time, you will need to enter the number you want to search for. When entering the number, the result will be shown.
+
+![Print](https://i.imgur.com/OS1rhH9.jpg)
+
 
 # References
 
